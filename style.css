@@ -64,6 +64,37 @@ body {
     margin: 0;
 }
 .hi_image {}
+.title {
+    color: #445161;
+    font-size: 30px;
+    line-height: 36px;
+}
+.what {
+    padding: 50px 0;
+}
+.what__row {
+    display: flex;
+}
+.what__image {
+    flex: 0 0 430px;
+}
+.what__image img {
+    max-width: 100%;
+}
+.what__body {
+    flex: 1 1 auto;
+    padding: 0px 0px 0px 38px;
+}
+.what__title {
+    margin: 0px 0px 33px 0px;
+}
+.what__text {}
+.what__text p {
+    margin: 0px 0px 25px 0px;
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+}
 .footer {
     background-color: #f5f5f5;
 }
